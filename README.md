@@ -92,11 +92,5 @@ Hizmetlerimiz 13 yaş altı çocuklara yönelik değildir ve bilerek bu yaş gru
 ## İletişim
 
 Sorularınız, talepleriniz veya endişeleriniz için:
-[İletişim Bilgilerini Buraya Ekle]
+parametreapp@gmail.com
 
----
-
-Bu kadar, kralım! İletişim bilgilerini ekledikten sonra gizlilik politikan hazır. Başka bir şey istersen, söylemen yeter!
-```
-
-Would you like me to commit these changes to your repository?
