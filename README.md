@@ -1,7 +1,7 @@
 
 # Parametre Uygulaması - Gizlilik Politikası
 
-Bu gizlilik politikası, Parametre uygulamasının kişisel verilerinizi nasıl topladığını, kullandığını, paylaştığını ve koruduğunu açıklar. Uygulamamız, Genel Veri Koruma Yönetmel[...]
+Bu gizlilik politikası, Parametre uygulamasının kişisel verilerinizi nasıl topladığını, kullandığını, paylaştığını ve koruduğunu açıklar. Uygulamamız, Genel Veri Koruma Yönetmeliği (GDPR) ve California Tüketici Gizliliği Yasası (CCPA) gibi geçerli yasal düzenlemelere tam uyumludur.
 
 ## Toplanan Bilgiler
 
