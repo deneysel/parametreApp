@@ -1,8 +1,8 @@
-# Parametre Uygulaması - Gizlilik Politikası
+# ParametreApp Uygulaması - Gizlilik Politikası
 
 Son Güncelleme: 08.05.2025
 
-Bu gizlilik politikası, Parametre uygulamasının ("Uygulama", "Hizmet") kişisel verilerinizi nasıl topladığını, kullandığını, paylaştığını ve koruduğunu açıklar. Uygulamamız, Genel Veri Koruma Yönetmeliği (GDPR) ve geçerli diğer veri koruma yasalarına uymayı hedefler. Uygulamayı kullanarak bu politikada açıklanan uygulamaları kabul etmiş olursunuz.
+Bu gizlilik politikası, ParametreApp uygulamasının ("Uygulama", "Hizmet") kişisel verilerinizi nasıl topladığını, kullandığını, paylaştığını ve koruduğunu açıklar. Uygulamamız, Genel Veri Koruma Yönetmeliği (GDPR) ve geçerli diğer veri koruma yasalarına uymayı hedefler. Uygulamayı kullanarak bu politikada açıklanan uygulamaları kabul etmiş olursunuz.
 
 ## Toplanan Bilgiler
 
