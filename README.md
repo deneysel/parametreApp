@@ -17,7 +17,7 @@ Parametre uygulaması aşağıdaki türde bilgileri toplayabilir:
     *   **Uygulama Kullanım Verileri (Firebase Analytics aracılığıyla):** Uygulama içi etkileşimleriniz (kullanılan özellikler, ekran görüntülemeleri vb.), cihaz türü, işletim sistemi sürümü gibi anonimleştirilmiş ve toplulaştırılmış teknik veriler. Bu veriler sizi kişisel olarak tanımlamaz.
     *   **Çökme Raporları (Firebase Crashlytics aracılığıyla):** Uygulama çöktüğünde, sorunu teşhis etmemize yardımcı olmak için cihaz durumu, uygulama sürümü ve çökme anındaki teknik bilgiler gibi anonimleştirilmiş veriler.
 *   **İzinle Toplanan Bilgiler (İsteğe Bağlı Özellikler):**
-    *   **Görsel Veriler:** Kamera veya galeriden yüklediğiniz fiş ve fatura görselleri (isteğe bağlı metin tanıma özelliği için).
+    *   **Görsel Veriler:** Kamera veya galeriden yüklediğiniz fiş ve fatura görselleri (isteğe bağlı).
 
 ## Verilerin Saklanması
 
@@ -33,9 +33,7 @@ Toplanan bilgiler şu amaçlarla kullanılır:
 *   Uygulamanın temel işlevlerini sağlamak (gelir-gider takibi, bütçe yönetimi, raporlama, hedef takibi).
 *   Uygulama performansını izlemek, kullanıcı deneyimini iyileştirmek ve yeni özellikler geliştirmek (Firebase Analytics verileri).
 *   Uygulamadaki hataları ve çökmeleri tespit etmek ve gidermek (Firebase Crashlytics verileri).
-*   İsteğe bağlı metin tanıma (OCR) özelliğini çalıştırmak (cihaz üzerinde).
 *   Destek taleplerinize yanıt vermek ve sizinle iletişim kurmak.
-*   Hedeflerinize eklediğiniz URL'lerden görselleri yüklemek ve göstermek (Coil kütüphanesi aracılığıyla).
 
 ## Veri İşleme Temeli
 
@@ -52,7 +50,6 @@ Verileriniz, sizin açık izniniz olmadan veya yasal bir zorunluluk olmadıkça 
     *   **Firebase Analytics:** Uygulama kullanımını anlamak ve iyileştirmek için anonim kullanım istatistikleri toplar.
     *   **Firebase Crashlytics:** Uygulama çökmelerini raporlamak ve analiz etmek için anonim çökme verileri toplar.
     *   Bu hizmetler tarafından toplanan veriler Google'ın gizlilik politikasına tabidir: [https://policies.google.com/privacy](https://policies.google.com/privacy)
-*   **Google ML Kit (Cihaz İçi):** Fiş/fatura görsellerinden metin tanımak için (isteğe bağlı özellik). Metin tanıma işlemi **cihazınızda** gerçekleşir, görseller Google sunucularına gönderilmez.
 *   **Coil:** Hedeflere eklediğiniz URL'lerden veya ileride eklenebilecek özellikler için cihazınızdan görsel yüklemek ve göstermek için kullanılır. Coil, performansı artırmak için görselleri cihazınızda geçici olarak önbelleğe alabilir. Harici URL'lerden görsel yüklenmesi, ilgili web sitesinin kendi gizlilik politikalarına tabidir.
 *   **Google Play Hizmetleri:** Uygulama güncellemeleri, güvenlik ve temel Android işlevleri için kullanılır.
 
@@ -62,7 +59,7 @@ Bu hizmet sağlayıcıların kendi gizlilik politikaları bulunmaktadır ve veri
 
 Uygulama, belirli özellikleri kullanabilmeniz için aşağıdaki izinleri isteyebilir:
 
-*   **Kamera (İsteğe Bağlı):** Fiş/fatura fotoğrafı çekmek için.
+*   **Kamera/Galeri (İsteğe Bağlı):** Fiş/fatura görseli eklemek için.
 *   **Depolama Erişimi (İsteğe Bağlı):** Verileri yedeklemek/geri yüklemek veya görsel eklemek için (Android sürümüne göre değişiklik gösterebilir).
 *   **İnternet:** Firebase hizmetlerinin (Analytics, Crashlytics) çalışması ve Coil'in URL'lerden görsel yüklemesi için gereklidir.
 
@@ -79,7 +76,7 @@ Uygulama, belirli özellikleri kullanabilmeniz için aşağıdaki izinleri istey
 
 *   Uygulamaya girdiğiniz tüm finansal verilerin, kategorilerin, hesapların ve hedeflerin sahibi sizsiniz.
 *   Verilerinizi uygulama içinden yönetebilir, düzenleyebilir ve silebilirsiniz.
-*   Uygulamayı cihazınızdan kaldırdığınızda, yerel olarak saklanan tüm verileriniz de silinir (manuel olarak oluşturduğunuz yedekleme dosyaları hariç).
+*   Uygulamayı cihazınızdan kaldırdığınızda, yerel olarak saklanan tüm verileriniz de silinir.
 
 ## Kullanıcı Hakları (GDPR ve Diğer Geçerli Yasalar Kapsamında)
 
